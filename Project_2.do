@@ -9,6 +9,8 @@ gen RvoteShare00 = reppresvotes2000 / demreppresvotes2000
 
 label variable RvoteShare96 "Republican Vote Share 1996"
 label variable RvoteShare00 "Republican Vote Share 2000"
+ 
+summarize RvoteShare00
 
 *Calculate change in republican vote share 1996 to 2000
 gen GOPChange = RvoteShare00 - RvoteShare96
